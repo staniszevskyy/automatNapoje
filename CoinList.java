@@ -1,4 +1,4 @@
-import java.util.List;
+
 
 public class CoinList {
     protected Coin[] coinList;
@@ -15,6 +15,14 @@ public class CoinList {
         coinList[7] = new Coin(200, 50);
         coinList[8] = new Coin(500, 50);
 
+    }
+
+    public float calcSum(){
+        float sum=0;
+        for (Coin c : coinList){
+            sum+=c.getVal()*c.getQuant();
+        }
+        return sum/100;
     }
 
 }
