@@ -33,7 +33,8 @@ public class Main {
 
         }
         for (int i=0; i < userCoins.coinList.length; i++){
-            System.out.println(userCoins.coinList[i].getQuant());
+
+            System.out.printf("%d groszy w ilosci: %d\n", userCoins.coinList[i].getVal(),userCoins.coinList[i].getQuant() );
         }
     }
 
