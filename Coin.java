@@ -7,11 +7,12 @@ public class Coin {
         this.quant = quant;
     }
 
-    public void setQuant(int quant){
-        this.quant=quant;
+    public void setQuant(int quant) {
+        this.quant = quant;
 
     }
-    public void setVal (int val){
+
+    public void setVal(int val) {
         this.val = val;
     }
 }
