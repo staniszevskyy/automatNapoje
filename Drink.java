@@ -8,4 +8,12 @@ public class Drink {
         this.quant = quant;
         this.price = price;
     }
+
+    public void setQuant(int quant) {
+        this.quant = quant;
+    }
+
+    public int getQuant() {
+        return quant;
+    }
 }

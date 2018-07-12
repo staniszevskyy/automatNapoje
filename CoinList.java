@@ -1,10 +1,10 @@
 import java.util.List;
 
 public class CoinList {
-    private Coin[] coinList;
+    protected Coin[] coinList;
 
     public CoinList() {
-
+        coinList = new Coin[9];
         coinList[0] = new Coin(1, 50);
         coinList[1] = new Coin(2, 50);
         coinList[2] = new Coin(5, 50);

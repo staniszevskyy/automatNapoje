@@ -3,6 +3,7 @@ public class DrinkList {
 
 
     public DrinkList() {
+        drinks = new Drink[20];
         drinks[0] = new Drink("Coca-Cola", 5, 199);
         drinks[1] = new Drink("Coca-Cola NoSug 0.5", 5, 399);
         drinks[2] = new Drink("Coca-Cola 0,5", 5, 350);

@@ -12,7 +12,11 @@ public class Coin {
 
     }
 
-    public void setVal(int val) {
-        this.val = val;
+    public int getVal() {
+        return val;
+    }
+
+    public int getQuant() {
+        return quant;
     }
 }
